@@ -1,0 +1,153 @@
+
+.background {
+    background-image: url(../images/wheat.png);
+}
+
+.pagewidth {
+    width: 100%;
+    
+}
+.contentwidth{
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* page headers*/
+.header {
+    background-color:#ffffff;
+    margin-bottom: 30px;
+    border-bottom:#cccccc solid 3px;
+}
+
+.namebox {
+    float: left;
+    width: 200px;
+    height: 75px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px; 
+    font-weight: bold; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    vertical-align: middle;
+    line-height: 30px;        
+} 
+
+li {
+    float: right;        
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/*main section*/
+.maincontent {background-color:#ffffff;
+ border: 3px solid #dddddd;
+}
+
+/*footer*/
+footer {
+background-color:#666666;
+color:#ffffff; 
+text-align: center;
+height: 50px;
+vertical-align: bottom;
+line-height: 70px;
+margin-top: 100px;
+border-top: #4aaaa5 solid 8px;
+font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+}
+
+.mainsectiontitle {
+    color: #4aaaa5;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.photoleft{
+    float: left;
+    margin-right: 20px;
+}
+
+.paragraph {
+   padding-left: 15px;
+    padding-right: 15px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;   
+}
+
+.submitButton{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 10px;
+    border: 0;
+    padding: 3px 8px 3px 8px;   
+}
+
+.maincontentLine{
+    border-bottom:#cccccc solid 3px;
+    float: center;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+/*contact form box*/
+.formbox{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.formline{
+    width: 925px;
+}
+/*portfolio pic container*/
+.picBox{
+    padding:20px 15px 60px 10px;
+    display:table;
+    clear: both;
+}
+
+.portfolioBanner{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+    padding-top: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+.portfolioPic {
+    background: url(../images/doggo.jpeg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 20px 15px;
+    position: relative;
+    float: left;
+}
